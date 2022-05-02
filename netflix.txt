@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix-Watch TV Shows Online,Movies Online</title>
+        <style>
+            .part1
+            {
+                width:100%;
+                height: 750px;
+                background-image: url('netflixpart1.jpg');
+            }
+            .netflixpar1
+            {
+                width:100%;
+                height: 100%;
+            }
+            table
+            {
+                width:100%;
+            }
+            #logo
+            {
+                width:130px;
+                height:50px;
+                padding-left: 50px;
+                padding-top: 30px;
+            }
+            #lang
+            {
+                border: 10px;
+                border-color: white;
+                border-radius: 2px;
+                background-color: black;
+                color: white;
+                width: 80px;
+                height: 40px;
+            }
+            #signin
+            {
+                background-color: red;
+                color: white;
+                border-radius: 3px;
+                width: 80px;
+                height: 40px;
+            }
+            p
+            {
+                color: aliceblue;
+                font-size: 400%;
+            }
+            .l1
+            {
+                padding-left: 30%;
+                padding-top: 65px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bolder;
+            }
+            #wc
+            {
+                color: white;
+                font-size: 150%;
+                padding-left: 40%;
+                padding-top: 0px;
+            }
+            #rw
+            {
+                color: aliceblue;
+                font-size: 120%;
+                padding-left: 32%;
+                padding-top: 0px;
+            }
+           #emip
+           {
+               width:500px;
+               height: 50px;
+               font-size: 25px;
+           }
+           .sb
+           {
+               padding-left: 400px;
+           }
+           .gs
+           {
+               width:200px;
+               height: 50px;
+               background-color: red;
+               color:white;
+               font-size: 23px;
+           }
+           .linespace1
+           {
+               width:100%;
+               height: 5px;
+               background-color: white;
+           }
+           .part2
+           {
+               width:100%;
+               height: 500px;
+               background-color: black;
+           }
+           .gpp
+           {
+               width:80%;
+               height: 80%;
+               padding-left: 10%;
+               padding-top: 10%;
+           }
+           .part3
+           {
+               width:100%;
+               height: 500px;
+               background-color: black;
+           }
+           .title1
+           {
+               font-size: 60px;
+               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               padding-left: 800px;
+               padding-top: 90px;
+           }
+           .subline1
+           {
+               font-size: 25px;
+               padding-left: 800px;
+               padding-top: 0px;
+           }
+
+           
+           .part4
+           {
+               width:100%;
+               height: 550px;
+               background-color: black;
+           }
+           .col
+           {
+               width:50%;
+               height: 500px;
+               float:left;
+           }
+           .ip
+           {
+                padding-left: 10%;
+                padding-top: 20px;
+           }
+           .titlee
+           {
+               font-size: 60px;
+               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               padding-top: 50px;
+               padding-left: 10%;
+           }
+           .sublinee
+           {
+               font-size: 25px;
+               padding-top: 0px;
+               padding-left: 10%;
+           }
+           .part5
+           {
+               width:100%;
+               height: 450px;
+               background-color: black;
+           }
+           .row1
+           {
+               width: 100%;
+               height: 10%;
+               background-color: black;
+           }
+           h3
+           {
+                color: white;
+                font-size: 30px;
+                padding-top: 30px;
+                padding-left: 40px;
+           }
+           .row2
+           {
+               width: 100%;
+               height: 60%;
+               background-color: black;
+           }
+           .row3
+           {
+               width: 100%;
+               height: 30%;
+               background-color: black;
+           }
+           .col1
+           {
+               width:25%;
+               height: 100%;
+               float:left;
+               background-color: black;
+           }
+           ul
+           {
+                padding-top: 60px;
+                list-style: none;
+           }
+           li
+           {
+               color: white;
+               padding: 2px;
+               font-size: 20px;
+           }
+           li:hover
+           {
+               color: red;
+               transform: translateX(6px);
+           }
+           #tm
+           {
+               padding-left: 40%;
+               display: inline-flex;
+           }
+           #tm:hover
+           {
+               color: red;
+           }
+           .ippp
+           {
+               width:80%;
+               height: 330px;
+               padding-top: 10%;
+               padding-left: 5%;
+           }
+           #you,#face,#insta,#twit
+           {
+               width:30px;
+               height:30px;
+               padding-left: 10px;
+               padding-top: 10px;
+               display: inline-flex;
+           }
+           #you
+           {
+               padding-left: 45%;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="part1">
+            <table>
+                <tr>
+                    <td style="width:70%"><img src="netflix-logo-0.png" id="logo"></td>
+                    <td style="width:10%">
+                        <select name="lang" id="lang">
+                            <option value="English">English</option>
+                            <option value="Telugu">Telugu</option>
+                          </select>
+                    </td>
+                    <td style="width:10%"><button type="button" id="signin" class="ipp">Sign in</button></td>
+                </tr>
+            </table>
+            <p class="l1" id="mt">Unlimited movies, TV </br>shows and more.</p>
+            <p id="wc">Watch anywhwre. Cancel anytime.</p>
+            <p id="rw">Ready to watch? Enter your email to create or restart your your membership.</p>
+            <div class="sb">
+                <input type="text" placeholder="Email address" id="emip">
+                <button type="button" class="gs">Get Started ></button>
+            </div>
+        </div>
+
+
+        <div class="linespace1">
+        </div>
+
+        <div class="part2">
+            <div class="col">
+                <img src="netflix-netflix-logo.gif" class="gpp">
+            </div>
+            <div class="col">
+                <p class="titlee">Create profiles for</br>children.</p>
+                <p class="sublinee">Send children on adventures with their</br>favourite characters in a space made just for</br>them free with your membership.</p>
+            </div>
+        </div>
+
+        <div class="linespace1">
+        </div>
+
+        <div class="part3">
+            
+            <div class="col">
+                <p class="titlee">Create profiles for</br>children.</p>
+                <p class="sublinee">Send children on adventures with their</br>favourite characters in a space made just for</br>them free with your membership.</p>
+            </div>
+            <div class="col">
+                <img src="netflix-netflix-logo.gif" class="gpp">
+            </div>
+        </div>
+
+        <div class="linespace1">
+        </div>
+
+        <div class="part3">
+            <div class="col">
+                <img src="netflix-logo-0.png" class="ippp">
+            </div>
+            <div class="col">
+                <p class="titlee">Create profiles for</br>children.</p>
+                <p class="sublinee">Send children on adventures with their</br>favourite characters in a space made just for</br>them free with your membership.</p>
+            </div>
+        </div>
+
+        <div class="linespace1">
+        </div>
+
+
+        <div class="part4">
+            <div class="col">
+                <img src="nf.png" class="ip">
+            </div>
+            <div class="col">
+                <p class="titlee">Create profiles for</br>children.</p>
+                <p class="sublinee">Send children on adventures with their</br>favourite characters in a space made just for</br>them free with your membership.</p>
+            </div>
+            
+        </div>
+
+        <div class="linespace1">
+        </div>
+
+
+        <div class="part5">
+            <div class="row1">
+                <h3>Questions? Call 000-800-040-1843</h3>
+            </div>
+            <div class="row2">
+                <div class="col1">
+                    <center>
+                        <ul>
+                            <li>FAQ</li>
+                            <li>Invester Relations</li>
+                            <li>Privacy</li>
+                            <li>Speed Test</li>
+                        </ul>
+                    </center>
+                </div>
+                <div class="col1">
+                    <center>
+                        <ul>
+                            <li>Help Center</li>
+                            <li>Jobs</li>
+                            <li>Cookie Preferences</li>
+                            <li>Legal Notices</li>
+                        </ul>
+                    </center>
+                </div>
+                <div class="col1">
+                    <center>
+                        <ul>
+                            <li>Account</li>
+                            <li>Ways to watch</li>
+                            <li>corporate information</li>
+                            <li>only on netflix</li>
+                        </ul>
+                    </center>
+                </div>
+                <div class="col1">
+                    <center>
+                        <ul>
+                            <li>terms of use</li>
+                            <li>media center</li>
+                            <li>contact us</li>
+                            <li>netflix</li>
+                        </ul>
+                    </center>
+                    
+                </div>
+            </div>
+            <div class="row3">
+                <a href="https://www.youtube.com/channel/UCWOA1ZGywLbqmigxE4Qlvuw"><img src="you.png" id="you"></a>
+                <a href="https://twitter.com/NetflixIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twit.png" id="twit"></a>
+                <a href="https://www.instagram.com/netflix/?hl=en"><img src="insta.png" id="insta"></a>
+                <a href="https://www.facebook.com/netflix/"><img src="face.png" id="face"></a>
+                <a href="https://www.netflix.com/browse/genre/100381"><h3 id="tm">NETFLIX INDIA&trade;</h3></a>
+            </div>
+            
+        </div>
+
+        
+    </body>
+</html>
